@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>WallF.BaseNEncodings</id>
+    <version>$version$</version>
+    <title>BaseNEncodings.Net</title>
+	<description>$description$</description>
+    <authors>wallf(wall.f.workshop#gmail.com)</authors>
+	<copyright>$copyright$</copyright>
+	<tags>Base16 Base32 Base64 Base-N RFC4648</tags>
+	<projectUrl>https://github.com/wallf/BaseNEncodings.Net</projectUrl>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>Initial release.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="\..\RFC 4648.txt" target="RFC4648.txt"/>
+	<file src="\content\readme.txt" target="readme.txt"/>
+  </files>
+</package>

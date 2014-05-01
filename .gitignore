@@ -1,0 +1,11 @@
+# Build
+[Dd]ebug/
+[Rr]elease/
+[Oo]bj/
+[Bb]in/
+
+# VS
+*.suo
+
+# NuGet
+!.nuget/bin
