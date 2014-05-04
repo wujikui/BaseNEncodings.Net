@@ -2,7 +2,7 @@
 namespace WallF.BaseNEncodings
 {
     /// <summary>
-    /// Defines a Base64 encoding with URL and Filename Safe Alphabet
+    /// Defines a Base64 encoding with URL and Filename Safe Alphabet.
     /// </summary>
     public sealed class Base64SafeEncoding : Base64Encoding
     {
@@ -17,11 +17,11 @@ namespace WallF.BaseNEncodings
         /// <summary>
         /// Default Encoding Name.
         /// </summary>
-        public new const string DEFAULT_NAME = "Standard Base64 Encoding with URL and Filename Safe";
+        public new const string DEFAULT_NAME = "Standard Base64 Encoding with URL and Filename Safe Alphabet";
 
 
         /// <summary>
-        /// Initializes a new instance that is a standard Base64 encoding(<a href="http://tools.ietf.org/rfc/rfc4648.txt">RFC 4648</a>) with URL and Filename Safe
+        /// Initializes a new instance that is a standard Base64 encoding(<a href="http://tools.ietf.org/rfc/rfc4648.txt">RFC 4648</a>) with URL and Filename Safe Alphabet.
         /// </summary>
         public Base64SafeEncoding() : base(STANDARD_ALPHABET.ToCharArray(), STANDARD_PADDING, DEFAULT_NAME, false) { }
     }

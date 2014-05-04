@@ -9,7 +9,7 @@
 	<copyright>$copyright$</copyright>
 	<tags>Base16 Base32 Base64 Base-N RFC4648</tags>
 	<projectUrl>https://github.com/wallf/BaseNEncodings.Net</projectUrl>
-    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>Initial release.</releaseNotes>
   </metadata>

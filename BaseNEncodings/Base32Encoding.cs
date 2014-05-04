@@ -4,8 +4,8 @@ using WallF.BaseNEncodings.Util;
 namespace WallF.BaseNEncodings
 {
     /// <summary>
-    /// Represents a Base32 encoding
-    /// <para>Default constructor will create a standard Base32 encoding(RFC 4648)</para>
+    /// Represents a Base32 encoding.
+    /// <para>Default constructor will create a standard Base32 encoding(RFC 4648).</para>
     /// </summary>
     public partial class Base32Encoding : BaseEncoding
     {

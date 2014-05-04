@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace WallF.BaseNEncodings.Inner
 {
-    internal class Base64
+    internal sealed class Base64
     {
         private readonly char[] charMap;
         private readonly IDictionary<char, int> indexMap;
@@ -67,9 +67,9 @@ namespace WallF.BaseNEncodings.Inner
             int lastIndex = offset + length - 1;
             if (chars[lastIndex - 1] == paddingChar) paddingNum = 2;
             else if (chars[lastIndex] == paddingChar) paddingNum = 1;
-            return (length - paddingNum) / 4 * 3 + PADDING_VALUENUM_MAP[paddingNum];
+            return (length - paddingNum) / 4 * 3 + PADDING_VALUES_NUM_MAP[paddingNum];
         }
-        private static readonly int[] PADDING_VALUENUM_MAP = { 0, 2, 1 };
+        private static readonly int[] PADDING_VALUES_NUM_MAP = { 0, 2, 1 };
 
         public int Decode(char[] charsIn, int offsetIn, int lengthIn, byte[] bytesOut, int offsetOut, int? lengthOutObj = null, int? paddingNumObj = null)
         {

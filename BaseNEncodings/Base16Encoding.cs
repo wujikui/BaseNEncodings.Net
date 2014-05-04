@@ -4,8 +4,8 @@ using WallF.BaseNEncodings.Util;
 namespace WallF.BaseNEncodings
 {
     /// <summary>
-    /// Represents a Base16 encoding
-    /// <para>Default constructor will create a standard Base16 encoding(RFC 4648)</para>
+    /// Represents a Base16 encoding.
+    /// <para>Default constructor will create a standard Base16 encoding(RFC 4648).</para>
     /// </summary>
     public partial class Base16Encoding : BaseEncoding
     {
@@ -22,7 +22,7 @@ namespace WallF.BaseNEncodings
         private readonly string encodingName;
 
         /// <summary>
-        /// Initializes a new instance that is a standard Base16 encoding(<a href="http://tools.ietf.org/rfc/rfc4648.txt">RFC 4648</a>)
+        /// Initializes a new instance that is a standard Base16 encoding(<a href="http://tools.ietf.org/rfc/rfc4648.txt">RFC 4648</a>).
         /// </summary>
         public Base16Encoding() : this(STANDARD_ALPHABET.ToCharArray(), DEFAULT_NAME, false) { }
 

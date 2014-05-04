@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace WallF.BaseNEncodings.Inner
 {
-    internal class Base32
+    internal sealed class Base32
     {
         private readonly char[] charMap;
         private readonly IDictionary<char, int> indexMap;
@@ -73,9 +73,9 @@ namespace WallF.BaseNEncodings.Inner
                     break;
                 }
             }
-            return (length - paddingNum) / 8 * 5 + PADDING_VALUENUM_MAP[paddingNum];
+            return (length - paddingNum) / 8 * 5 + PADDING_VALUES_NUM_MAP[paddingNum];
         }
-        private static readonly int[] PADDING_VALUENUM_MAP = { 0, 4, 0, 3, 2, 0, 1 };
+        private static readonly int[] PADDING_VALUES_NUM_MAP = { 0, 4, 0, 3, 2, 0, 1 };
 
         public int Decode(char[] charsIn, int offsetIn, int lengthIn, byte[] bytesOut, int offsetOut, int? lengthOutObj = null, int? paddingNumObj = null)
         {

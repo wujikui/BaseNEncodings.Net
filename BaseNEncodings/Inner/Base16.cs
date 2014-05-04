@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace WallF.BaseNEncodings.Inner
 {
-    internal class Base16
+    internal sealed class Base16
     {
         private readonly char[] charMap;
         private readonly IDictionary<char, int> indexMap;

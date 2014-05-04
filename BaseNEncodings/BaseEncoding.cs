@@ -332,6 +332,8 @@ namespace WallF.BaseNEncodings
         /// <param name="offset">The index of the first character to validate.</param>
         /// <param name="length">The number of characters to validate.</param>
         /// <returns>Returns true if the specified character array is valid.</returns>
+        /// <exception cref="ArgumentNullException">chars is null</exception>
+        /// <exception cref="ArgumentOutOfRangeException">offset and length can't reference an effective tuple of chars</exception>
         public virtual bool IsValidBaseSequence(char[] chars, int offset, int length)
         {
             if (chars == null)
@@ -346,6 +348,7 @@ namespace WallF.BaseNEncodings
         /// </summary>
         /// <param name="s">The string containing the set of characters to validate.</param>
         /// <returns>Returns true if the specified character array is valid.</returns>
+        /// <exception cref="ArgumentNullException">s is null</exception>
         public virtual bool IsValidBaseString(string s)
         {
             if (s == null)
@@ -356,7 +359,7 @@ namespace WallF.BaseNEncodings
         #endregion
 
 
-        #region abstarct, core methods
+        #region abstract, core methods
 
         /// <summary>
         /// When overridden in a derived class, calculates the number of characters produced by encoding the sequence of bytes specified length from byte array.
