@@ -3,6 +3,8 @@ BaseNEncodings.Net
 
 BaseNEncodings.Net is a general base16, base32, base64 encodings library for .NET 2.0+, which is according to [RFC 4648][1].
 
+> The project [java-base-n-encodings][9] was migrated from BaseNEncodings.Net.
+
 Features
 --------
 - Represents a **general** Base-N data encoding as an abstract class.
@@ -58,3 +60,4 @@ Documentation, Simple and Benchmark
   [3]: https://github.com/wallf/BaseNEncodings.Net/releases/download/v1.0.0/BaseNEncodings.Net.v1.0.0.zip
   [4]: https://github.com/wallf/BaseNEncodings.Net/tree/master/Simple
   [5]: https://github.com/wallf/BaseNEncodings.Net/tree/master/Benchmark
+  [9]: https://github.com/wallf/java-base-n-encodings
