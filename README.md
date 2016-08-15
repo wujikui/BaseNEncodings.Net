@@ -5,6 +5,8 @@ BaseNEncodings.Net is a general base16, base32, base64 encodings library for .NE
 
 > The project [java-base-n-encodings][9] was migrated from BaseNEncodings.Net.
 
+> The repository had been transfered from [wallf][10].
+
 Features
 --------
 - Represents a **general** Base-N data encoding as an abstract class.
@@ -57,7 +59,8 @@ Documentation, Simple and Benchmark
 
   [1]: http://tools.ietf.org/html/rfc4648
   [2]: http://nuget.org/packages/WallF.BaseNEncodings
-  [3]: https://github.com/wallf/BaseNEncodings.Net/releases/download/v1.0.0/BaseNEncodings.Net.v1.0.0.zip
-  [4]: https://github.com/wallf/BaseNEncodings.Net/tree/master/Simple
-  [5]: https://github.com/wallf/BaseNEncodings.Net/tree/master/Benchmark
-  [9]: https://github.com/wallf/java-base-n-encodings
+  [3]: https://github.com/wujikui/BaseNEncodings.Net/releases/download/v1.0.0/BaseNEncodings.Net.v1.0.0.zip
+  [4]: https://github.com/wujikui/BaseNEncodings.Net/tree/master/Simple
+  [5]: https://github.com/wujikui/BaseNEncodings.Net/tree/master/Benchmark
+  [9]: https://github.com/wujikui/java-base-n-encodings
+  [10]: https://github.com/wallf/java-base-n-encodings
